@@ -1,10 +1,10 @@
 import React from "react";
-import ProductApp from "./Componentes/ProductApp";
+import ShoppingCartApp from "./Componentes/ShoppingCartApp";
 
 const App = () => {
   return (
     <div className="container">
-      <ProductApp />
+      <ShoppingCartApp />
     </div>
   );
 };
