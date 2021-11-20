@@ -1,19 +1,11 @@
-# Uso de los Hooks en React
+# Using useState
 
-En este proyecto hare uso de diversos hooks de React con la finalidad
-de entender a fondo como funcionan realizando diversos subproyectos por
-lo que estara dividido en diversas ramas.
+CounterApp
 
-- usePrimario
-- useState
-- useEffect (useSecundario)
-- useMemo
-- useContext
+This application increase a number by clicking a button as called Increase.
+You always must use setCounter for changing the counter variable value it is defined as const.
 
-> Si hay algo que mejorar en este projecto de practica,
-> no duden en hacermelo saber.
-
-### Para iniciar este proyecto de manera local:
+### Deployment in local Stage:
 
 ### `npm install`
 
