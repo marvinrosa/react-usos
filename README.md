@@ -1,9 +1,9 @@
 # Using useState
 
-CounterApp
+ConditionalApp
 
-This application increase a number by clicking a button as called Increase.
-You always must use setCounter for changing the counter variable value it is defined as const.
+This application use conditional rendering for showing information for instance:
+show a componet or not. it depends about the main codition.
 
 ### Deployment in local Stage:
 

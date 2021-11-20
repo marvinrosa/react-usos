@@ -1,10 +1,10 @@
 import React from "react";
-import CounterApp from "./Componentes/CounterApp";
+import ConditionalApp from "./Componentes/ConditionalApp";
 
 const App = () => {
   return (
     <div className="container">
-      <CounterApp />
+      <ConditionalApp />
     </div>
   );
 };

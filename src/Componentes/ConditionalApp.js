@@ -1,0 +1,14 @@
+import React, { useState } from "react";
+
+const ConditionalApp = () => {
+  const [condition, setContidion] = useState(true);
+  return (
+    <>
+      <h1>Contidional App</h1>
+      <button onClick={setContidion(!condition)}>Toggle</button>
+      {condition ? <h2>Im a message</h2> : null}
+    </>
+  );
+};
+
+export default ConditionalApp;
