@@ -1,10 +1,10 @@
 import React from "react";
-import ConditionalApp from "./Componentes/ConditionalApp";
+import ErrorApp from "./Componentes/ErrorApp";
 
 const App = () => {
   return (
     <div className="container">
-      <ConditionalApp />
+      <ErrorApp />
     </div>
   );
 };
