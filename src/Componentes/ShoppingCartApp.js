@@ -26,10 +26,19 @@ const ShoppingCartApp = () => {
     const changedCart = [newProduct, ...cart];
     setCart(changedCart);
   };
+
+  const updateProduct = (editProduct) => {
+    const changedCart = cart.map((product) =>
+      product.id === editProduct.id ? editProduct : product
+    );
+    setCart(changedCart);
+  };
+
   return (
     <>
       <h1>ShoppingCartApp</h1>
       <hr />
+
       <button
         onClick={() =>
           addProduct({
@@ -46,6 +55,17 @@ const ShoppingCartApp = () => {
           <div key={product.id}>
             <hr />
             <button onClick={() => deleteProduct(product.id)}>Delete</button>
+            <button
+              onClick={() =>
+                updateProduct({
+                  id: product.id,
+                  title: "New Feature",
+                  description: "the descrition of feature",
+                })
+              }
+            >
+              Update
+            </button>
             <hr />
             <h2>
               {product.id} - {product.title}
