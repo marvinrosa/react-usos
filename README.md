@@ -1,9 +1,13 @@
 # Using useState
 
-ErrorApp
+ProductApp
 
-This application is a ErrorApp using useState for simulating a real process when you get information from
-API or it have an error in how the application shows all data in browser or it is a correct way for that reason it is not showing nothing.
+This application is a ProductApp, the way you work with json objects, add information dynamic. it is an easy app but sometime it hards work with that
+
+- spread Operator
+- Json objects
+- get data
+- show data
 
 ### Deployment in local Stage:
 

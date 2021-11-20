@@ -1,10 +1,10 @@
 import React from "react";
-import ErrorApp from "./Componentes/ErrorApp";
+import ProductApp from "./Componentes/ProductApp";
 
 const App = () => {
   return (
     <div className="container">
-      <ErrorApp />
+      <ProductApp />
     </div>
   );
 };
